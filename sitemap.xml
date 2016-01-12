@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85/</loc>
-    <lastmod>2016-01-11T11:55:53.000Z</lastmod>
+    <loc>http://yoursite.com/2016/01/11/MarkDown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2016-01-12T08:54:20.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/01/11/MarkDown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2016-01-11T11:51:44.000Z</lastmod>
+    <loc>http://yoursite.com/2016/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85/</loc>
+    <lastmod>2016-01-12T08:18:10.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    <lastmod>2016-01-12T07:15:29.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    <lastmod>2016-01-12T07:14:31.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    <lastmod>2016-01-12T07:11:29.000Z</lastmod>
   </url>
   
 </urlset>

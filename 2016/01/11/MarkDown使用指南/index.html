@@ -1,112 +1,277 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="theme-next   use-motion ">
 <head>
-  <meta charset="utf-8">
-  
-  <title>MarkDown使用指南 | Mokyz的小本本</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="SyntaxStrong and Emphasizestrong or strong ( Cmd + B )
-emphasize or emphasize ( Cmd + I )
-Sometimes I want a lot of text to be bold.Like, seriously, a LOT of text
-Blockquotes
-Right angle brackets &amp;gt;">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+
+
+
+
+
+
+<meta name="description" content="MarkDown语法粗体 and 斜体strong **strong** or __strong__ ( Cmd + B ) 
+emphasize *emphasize* or _emphasize_ ( Cmd + I )
+strong and emphasize **_strong and emphasize_**
+引用
+引用内容 &amp;gt; + 引用内容
+
+邮件 and 连接邮件：&amp;#x65;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkDown使用指南">
 <meta property="og:url" content="http://yoursite.com/2016/01/11/MarkDown使用指南/index.html">
 <meta property="og:site_name" content="Mokyz的小本本">
-<meta property="og:description" content="SyntaxStrong and Emphasizestrong or strong ( Cmd + B )
-emphasize or emphasize ( Cmd + I )
-Sometimes I want a lot of text to be bold.Like, seriously, a LOT of text
-Blockquotes
-Right angle brackets &amp;gt;">
+<meta property="og:description" content="MarkDown语法粗体 and 斜体strong **strong** or __strong__ ( Cmd + B ) 
+emphasize *emphasize* or _emphasize_ ( Cmd + I )
+strong and emphasize **_strong and emphasize_**
+引用
+引用内容 &amp;gt; + 引用内容
+
+邮件 and 连接邮件：&amp;#x65;">
 <meta property="og:image" content="http://25.io/smaller/favicon.ico">
 <meta property="og:image" content="http://resizesafari.com/favicon.ico">
-<meta property="og:updated_time" content="2016-01-11T11:51:44.000Z">
+<meta property="og:updated_time" content="2016-01-12T08:54:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MarkDown使用指南">
-<meta name="twitter:description" content="SyntaxStrong and Emphasizestrong or strong ( Cmd + B )
-emphasize or emphasize ( Cmd + I )
-Sometimes I want a lot of text to be bold.Like, seriously, a LOT of text
-Blockquotes
-Right angle brackets &amp;gt;">
-  
-    <link rel="alternative" href="/atom.xml" title="Mokyz的小本本" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  
+<meta name="twitter:description" content="MarkDown语法粗体 and 斜体strong **strong** or __strong__ ( Cmd + B ) 
+emphasize *emphasize* or _emphasize_ ( Cmd + I )
+strong and emphasize **_strong and emphasize_**
+引用
+引用内容 &amp;gt; + 引用内容
 
+邮件 and 连接邮件：&amp;#x65;">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    sidebar: 'post',
+    motion: true
+  };
+</script>
+
+  <title> MarkDown使用指南 | Mokyz的小本本 </title>
 </head>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Mokyz的小本本</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">首页</a>
-        
-          <a class="main-nav-link" href="/archives">文章</a>
-        
-          <a class="main-nav-link" href="/about">关于</a>
-        
-          <a class="main-nav-link" href="/sitemap.xml">网站地图</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
   </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-MarkDown使用指南" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/01/11/MarkDown使用指南/" class="article-date">
-  <time datetime="2016-01-11T09:10:24.000Z" itemprop="datePublished">2016-01-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      MarkDown使用指南
-    </h1>
+<![endif]-->
   
 
+
+
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Mokyz的小本本</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu ">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                MarkDown使用指南
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-01-11T17:10:24+08:00" content="2016-01-11">
+              2016-01-11
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+
+    <div class="post-body">
+
       
-        <h3 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h3><h4 id="Strong_and_Emphasize"><a href="#Strong_and_Emphasize" class="headerlink" title="Strong and Emphasize"></a>Strong and Emphasize</h4><p><strong>strong</strong> or <strong>strong</strong> ( Cmd + B )</p>
-<p><em>emphasize</em> or <em>emphasize</em> ( Cmd + I )</p>
-<p><strong>Sometimes I want a lot of text to be bold.<br>Like, seriously, a <em>LOT</em> of text</strong></p>
-<h4 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h4><blockquote>
-<p>Right angle brackets &gt; are used for block quotes.</p>
+      
+
+      
+        <span itemprop="articleBody"><h3 id="MarkDown_u8BED_u6CD5"><a href="#MarkDown_u8BED_u6CD5" class="headerlink" title="MarkDown语法"></a>MarkDown语法</h3><h4 id="u7C97_u4F53_and__u659C_u4F53"><a href="#u7C97_u4F53_and__u659C_u4F53" class="headerlink" title="粗体 and 斜体"></a>粗体 and 斜体</h4><p><strong>strong</strong> <code>**strong** or __strong__ ( Cmd + B )</code> </p>
+<p><em>emphasize</em> <code>*emphasize* or _emphasize_ ( Cmd + I )</code></p>
+<p><strong><em>strong and emphasize</em></strong> <code>**_strong and emphasize_**</code></p>
+<h4 id="u5F15_u7528"><a href="#u5F15_u7528" class="headerlink" title="引用"></a>引用</h4><blockquote>
+<p>引用内容 <code>&gt; + 引用内容</code></p>
 </blockquote>
-<h4 id="Links_and_Email"><a href="#Links_and_Email" class="headerlink" title="Links and Email"></a>Links and Email</h4><p>An email <a href="/&#109;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;</a> link.</p>
+<h4 id="u90AE_u4EF6_and__u8FDE_u63A5"><a href="#u90AE_u4EF6_and__u8FDE_u63A5" class="headerlink" title="邮件 and 连接"></a>邮件 and 连接</h4><p>邮件：<a href="/&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;</a>  <code>&lt;example@example.com&gt;</code></p>
 <p>Simple inline link <a href="http://chenluois.com" target="_blank" rel="external">http://chenluois.com</a>, another inline link <a href="http://25.io/smaller/" target="_blank" rel="external">Smaller</a>, one more inline link with title <a href="http://resizesafari.com" title="a Safari extension" target="_blank" rel="external">Resize</a>.</p>
 <p>A <a href="http://25.io/mou/" title="Markdown editor on Mac OS X" target="_blank" rel="external">reference style</a> link. Input id, then anywhere in the doc, define the link with corresponding id:</p>
 <p>Titles ( or called tool tips ) in the links are optional.</p>
@@ -278,107 +443,409 @@ var Mou = exactlyTheAppIwant;
 <h3 id="And_more_3F"><a href="#And_more_3F" class="headerlink" title="And more?"></a>And more?</h3><p>Don’t forget to check Preferences, lots of useful options are there.</p>
 <p>Follow <a href="https://twitter.com/mou" target="_blank" rel="external">@Mou</a> on Twitter for the latest news.</p>
 <p>For feedback, use the menu <code>Help</code> - <code>Send Feedback</code></p>
-
+</span>
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/11/MarkDown使用指南/" data-id="cij9wkf2k0000f7s0zoal9jey" class="article-share-link">Share</a>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/01/11/个人博客之旅/" rel="prev" title="个人博客之旅（一）— 博客搭建">
+                个人博客之旅（一）— 博客搭建 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
       
       
     </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
-  
+
+
+        </div>
+
+        
+
+
+        
+  <div class="comments" id="comments">
     
-<nav id="article-nav">
-  
-    <a href="/2016/01/11/个人博客之旅/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          个人博客之旅（一）— 博客搭建
-        
+  </div>
+
+
       </div>
-    </a>
-  
-  
-</nav>
 
-  
-</article>
-
-</section>
+      
         
-          <aside id="sidebar">
   
-    
-  
-    
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">一月 2016</a><span class="archive-list-count">2</span></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2016/01/11/个人博客之旅/">个人博客之旅（一）— 博客搭建</a>
-          </li>
-        
-          <li>
-            <a href="/2016/01/11/MarkDown使用指南/">MarkDown使用指南</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
 
-  
-</aside>
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="/uploads/icon-user.png" alt="Moky Zhang" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Moky Zhang</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">哪里不会点哪里</p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            <a href="/categories">
+              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-name">分类</span>
+              </a>
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-name">标签</span>
+              </a>
+          </div>
+
+        </nav>
+
         
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/mokyz" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> github
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/5762939915/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> weibo
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> zhihu
+                  
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MarkDown_u8BED_u6CD5"><span class="nav-number">1.</span> <span class="nav-text">MarkDown语法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#u7C97_u4F53_and__u659C_u4F53"><span class="nav-number">1.1.</span> <span class="nav-text">粗体 and 斜体</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u5F15_u7528"><span class="nav-number">1.2.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u90AE_u4EF6_and__u8FDE_u63A5"><span class="nav-number">1.3.</span> <span class="nav-text">邮件 and 连接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Images"><span class="nav-number">1.4.</span> <span class="nav-text">Images</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Inline_code_and_Block_code"><span class="nav-number">1.5.</span> <span class="nav-text">Inline code and Block code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Ordered_Lists"><span class="nav-number">1.6.</span> <span class="nav-text">Ordered Lists</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Unordered_Lists"><span class="nav-number">1.7.</span> <span class="nav-text">Unordered Lists</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hard_Linebreak"><span class="nav-number">1.8.</span> <span class="nav-text">Hard Linebreak</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Horizontal_Rules"><span class="nav-number">1.9.</span> <span class="nav-text">Horizontal Rules</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Headers"><span class="nav-number">1.10.</span> <span class="nav-text">Headers</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#This_is_H1"><span class="nav-number"></span> <span class="nav-text">This is H1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#This_is_H2"><span class="nav-number"></span> <span class="nav-text">This is H2</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#This_is_H1-1"><span class="nav-number"></span> <span class="nav-text">This is H1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#This_is_H2-1"><span class="nav-number"></span> <span class="nav-text">This is H2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#This_is_H3"><span class="nav-number">1.</span> <span class="nav-text">This is H3</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#This_is_H4"><span class="nav-number">1.1.</span> <span class="nav-text">This is H4</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#This_is_H5"><span class="nav-number">1.1.1.</span> <span class="nav-text">This is H5</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#This_is_H6"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">This is H6</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Extra_Syntax"><span class="nav-number">2.</span> <span class="nav-text">Extra Syntax</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Footnotes"><span class="nav-number">2.1.</span> <span class="nav-text">Footnotes</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Strikethrough"><span class="nav-number">2.2.</span> <span class="nav-text">Strikethrough</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Fenced_Code_Blocks"><span class="nav-number">2.3.</span> <span class="nav-text">Fenced Code Blocks</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Tables"><span class="nav-number">2.4.</span> <span class="nav-text">Tables</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Shortcuts"><span class="nav-number">3.</span> <span class="nav-text">Shortcuts</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#View"><span class="nav-number">3.1.</span> <span class="nav-text">View</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Actions"><span class="nav-number">3.2.</span> <span class="nav-text">Actions</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Edit"><span class="nav-number">3.3.</span> <span class="nav-text">Edit</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Post"><span class="nav-number">3.4.</span> <span class="nav-text">Post</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Export"><span class="nav-number">3.5.</span> <span class="nav-text">Export</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#And_more_3F"><span class="nav-number">4.</span> <span class="nav-text">And more?</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+      
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="icon-next-heart fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Moky Zhang</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2016 Moky Zhang<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
+    </footer>
+
+    <div class="back-to-top"></div>
   </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
   
-    <a href="/" class="mobile-nav-link">首页</a>
   
-    <a href="/archives" class="mobile-nav-link">文章</a>
+
   
-    <a href="/about" class="mobile-nav-link">关于</a>
-  
-    <a href="/sitemap.xml" class="mobile-nav-link">网站地图</a>
-  
-</nav>
+    
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
 
-  </div>
+<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
+
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    motionMiddleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+      if (CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+  
+  
+
+  
+  
+
 </body>
 </html>
