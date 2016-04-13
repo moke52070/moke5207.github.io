@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-12T09:01:23.000Z</updated>
+  <updated>2016-04-13T06:45:24.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,15 +15,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[个人博客之旅（二） - 界面配置]]></title>
-    <link href="http://yoursite.com/2016/01/12/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85(%E4%BA%8C)%20-%20%E7%95%8C%E9%9D%A2%E9%85%8D%E7%BD%AE/"/>
-    <id>http://yoursite.com/2016/01/12/个人博客之旅(二) - 界面配置/</id>
-    <published>2016-01-12T09:01:23.000Z</published>
-    <updated>2016-01-12T09:01:23.000Z</updated>
+    <title><![CDATA[iOS 积累]]></title>
+    <link href="http://yoursite.com/2016/04/13/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85(%E4%BA%8C)%20-%20%E7%95%8C%E9%9D%A2%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2016/04/13/个人博客之旅(二) - 界面配置/</id>
+    <published>2016-04-13T05:01:23.000Z</published>
+    <updated>2016-04-13T06:45:24.000Z</updated>
     <content type="html"></content>
     <summary type="html">
     
     </summary>
+    
+      <category term="iOS" scheme="http://yoursite.com/tags/iOS/"/>
     
   </entry>
   
@@ -32,7 +34,7 @@
     <link href="http://yoursite.com/2016/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85(%E4%B8%80)%20-%20%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2016/01/11/个人博客之旅(一) - 博客搭建/</id>
     <published>2016-01-11T11:32:17.000Z</published>
-    <updated>2016-04-13T06:22:18.000Z</updated>
+    <updated>2016-04-13T06:24:43.000Z</updated>
     <content type="html"><![CDATA[<h3 id="u51C6_u5907_u5DE5_u4F5C_uFF1A"><a href="#u51C6_u5907_u5DE5_u4F5C_uFF1A" class="headerlink" title="准备工作："></a>准备工作：</h3><p>设备：<code>Mac</code></p>
 <p>博客驱动：<code>Hexo</code></p>
 <p>部署平台：<code>GitHub</code></p>
@@ -81,14 +83,14 @@ hexo d // 部署到github
     <link href="http://yoursite.com/2016/01/11/MarkDown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     <id>http://yoursite.com/2016/01/11/MarkDown使用指南/</id>
     <published>2016-01-11T09:10:24.000Z</published>
-    <updated>2016-04-13T06:22:43.000Z</updated>
+    <updated>2016-04-13T06:24:15.000Z</updated>
     <content type="html"><![CDATA[<h3 id="MarkDown_u8BED_u6CD5"><a href="#MarkDown_u8BED_u6CD5" class="headerlink" title="MarkDown语法"></a>MarkDown语法</h3><h4 id="u7C97_u4F53_and__u659C_u4F53"><a href="#u7C97_u4F53_and__u659C_u4F53" class="headerlink" title="粗体 and 斜体"></a>粗体 and 斜体</h4><p><strong>strong</strong> <code>**strong** or __strong__ ( Cmd + B )</code> </p>
 <p><em>emphasize</em> <code>*emphasize* or _emphasize_ ( Cmd + I )</code></p>
 <p><strong><em>strong and emphasize</em></strong> <code>**_strong and emphasize_**</code></p>
 <h4 id="u5F15_u7528"><a href="#u5F15_u7528" class="headerlink" title="引用"></a>引用</h4><blockquote>
 <p>引用内容 <code>&gt; + 引用内容</code></p>
 </blockquote>
-<h4 id="u90AE_u4EF6_and__u8FDE_u63A5"><a href="#u90AE_u4EF6_and__u8FDE_u63A5" class="headerlink" title="邮件 and 连接"></a>邮件 and 连接</h4><p>邮件：<a href="/&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x65;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a>  <code>&lt;example@example.com&gt;</code></p>
+<h4 id="u90AE_u4EF6_and__u8FDE_u63A5"><a href="#u90AE_u4EF6_and__u8FDE_u63A5" class="headerlink" title="邮件 and 连接"></a>邮件 and 连接</h4><p>邮件：<a href="/&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#101;&#x78;&#x61;&#109;&#112;&#x6c;&#101;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#101;&#x2e;&#99;&#x6f;&#109;">&#101;&#x78;&#x61;&#109;&#112;&#x6c;&#101;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#101;&#x2e;&#99;&#x6f;&#109;</a>  <code>&lt;example@example.com&gt;</code></p>
 <p>简单连接： <a href="https://www.baidu.com" target="_blank" rel="external">https://www.baidu.com</a> <code>&lt;https://www.baidu.com&gt;</code></p>
 <p>带标题的连接：<a href="https://www.baidu.com" target="_blank" rel="external">百度</a> <code>[百度](https://www.baidu.com)</code></p>
 <p>带鼠标常驻标签：<a href="https://www.baidu.com" title="百度一下，你就知道" target="_blank" rel="external">百度</a>.</p>
