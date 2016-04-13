@@ -60,8 +60,8 @@
 网站内有两个版本下载，这里选择第一个LTS版本。安装过程中，Node.js和npm会一并安装。可在终端输入node -v检查是否安装成功(安装成功会有相关介绍打印)
 三、安装He">
 <meta property="og:type" content="article">
-<meta property="og:title" content="个人博客之旅（一）— 博客搭建">
-<meta property="og:url" content="http://yoursite.com/2016/01/11/个人博客之旅/index.html">
+<meta property="og:title" content="个人博客之旅(一) — 博客搭建">
+<meta property="og:url" content="http://yoursite.com/2016/01/11/个人博客之旅(一) - 博客搭建/index.html">
 <meta property="og:site_name" content="Mokyz的小本本">
 <meta property="og:description" content="准备工作：设备：Mac
 博客驱动：Hexo
@@ -77,9 +77,9 @@
 <meta property="og:image" content="http://yoursite.com/uploads/Snip20160112_5.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snip20160112_8.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snip20160112_9.png">
-<meta property="og:updated_time" content="2016-01-12T08:18:10.000Z">
+<meta property="og:updated_time" content="2016-04-13T06:22:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="个人博客之旅（一）— 博客搭建">
+<meta name="twitter:title" content="个人博客之旅(一) — 博客搭建">
 <meta name="twitter:description" content="准备工作：设备：Mac
 博客驱动：Hexo
 部署平台：GitHub
@@ -99,7 +99,13 @@
   };
 </script>
 
-  <title> 个人博客之旅（一）— 博客搭建 | Mokyz的小本本 </title>
+  <title>
+  
+
+  
+    个人博客之旅(一) — 博客搭建 | Mokyz的小本本
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -120,7 +126,7 @@
 
 
 
-  <div class="container one-column page-post-detail">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -220,59 +226,8 @@
 
   <div id="posts" class="posts-expand">
     
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                个人博客之旅（一）— 博客搭建
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2016-01-11T19:32:17+08:00" content="2016-01-11">
-              2016-01-11
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body">
-
-      
-      
-
-      
-        <span itemprop="articleBody"><h3 id="u51C6_u5907_u5DE5_u4F5C_uFF1A"><a href="#u51C6_u5907_u5DE5_u4F5C_uFF1A" class="headerlink" title="准备工作："></a>准备工作：</h3><p>设备：<code>Mac</code></p>
+      <h3 id="u51C6_u5907_u5DE5_u4F5C_uFF1A"><a href="#u51C6_u5907_u5DE5_u4F5C_uFF1A" class="headerlink" title="准备工作："></a>准备工作：</h3><p>设备：<code>Mac</code></p>
 <p>博客驱动：<code>Hexo</code></p>
 <p>部署平台：<code>GitHub</code></p>
 <p>需要安装：<code>Git</code>、<code>Node.js</code>、<code>npm</code></p>
@@ -298,47 +253,18 @@ hexo server
 <p>在终端执行（此时终端应当还在Hexo文件夹下）开始部署</p>
 <pre><code>hexo deploy
 </code></pre><p>部署完成后，在浏览器中直接打开地址 <code>http://mokyz.github.io</code> 即可打开刚刚搭建的博客</p>
-<h3 id="u4E94_u3001_u53D1_u8868_u535A_u5BA2"><a href="#u4E94_u3001_u53D1_u8868_u535A_u5BA2" class="headerlink" title="五、发表博客"></a>五、发表博客</h3><p>终端执行</p>
-<pre><code>hexo new &quot;博客的标题&quot;
-</code></pre><p>创建完之后，会生成MarkDown文件 <code>hexo/source/_posts/博客的标题.md</code>，可以使用MarkDown编辑器进行编辑。编辑完之后，在终端执行</p>
-<pre><code>hexo g    // 生成静态网页
-hexo s    // 本地预览，可在浏览器打开 0.0.0.0:4000 预览效果
-hexo d    //    部署到github
+<h3 id="u4E94_u3001_u53D1_u8868_26amp_3B_u4FEE_u6539_u535A_u5BA2"><a href="#u4E94_u3001_u53D1_u8868_26amp_3B_u4FEE_u6539_u535A_u5BA2" class="headerlink" title="五、发表&amp;修改博客"></a>五、发表&amp;修改博客</h3><p>终端执行</p>
+<pre><code>cd [hexo文件夹目录]
+hexo new &quot;博客的标题&quot;
+</code></pre><p>创建完之后，会生成MarkDown文件 <code>hexo/source/_posts/博客的标题.md</code>，可以使用MarkDown编辑器进行编辑。也可以对已经创建好的md文件编辑，编辑完之后，在终端执行</p>
+<pre><code>hexo g // 生成静态网页
+hexo s // 启动服务器，可本地预览，可在浏览器打开 0.0.0.0:4000 预览效果
+hexo d // 部署到github
 </code></pre><p><code>PS:</code> 执行 <code>hexo s --debug</code> 可进行实时编辑，在修改文档的同时，网页也会跟着修改，但是会比较卡顿，看个人喜好选择。</p>
+<p>更多指令，参考：<a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/commands.html</a>;</p>
 <p><code>下一节，博客界面配置</code></p>
-</span>
-      
-    </div>
 
-    <footer class="post-footer">
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/01/11/MarkDown使用指南/" rel="next" title="MarkDown使用指南">
-                <i class="fa fa-chevron-left"></i> MarkDown使用指南
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
+    
   </div>
 
 
@@ -372,17 +298,8 @@ hexo d    //    部署到github
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" src="/uploads/icon-user.png" alt="Moky Zhang" itemprop="image"/>
           <p class="site-author-name" itemprop="name">Moky Zhang</p>
@@ -391,7 +308,7 @@ hexo d    //    部署到github
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -453,23 +370,6 @@ hexo d    //    部署到github
 
       </section>
 
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator">
-            <i class="fa fa-angle-double-up"></i>
-          </div>
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u51C6_u5907_u5DE5_u4F5C_uFF1A"><span class="nav-number">1.</span> <span class="nav-text">准备工作：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E00_u3001_u5B89_u88C5Git"><span class="nav-number">2.</span> <span class="nav-text">一、安装Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E8C_u3001_u5B89_u88C5Node-js"><span class="nav-number">3.</span> <span class="nav-text">二、安装Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E09_u3001_u5B89_u88C5Hexo"><span class="nav-number">4.</span> <span class="nav-text">三、安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u56DB_u3001GitHub_u90E8_u7F72"><span class="nav-number">5.</span> <span class="nav-text">四、GitHub部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E94_u3001_u53D1_u8868_u535A_u5BA2"><span class="nav-number">6.</span> <span class="nav-text">五、发表博客</span></a></li></ol></div>
-            
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator">
-            <i class="fa fa-angle-double-down"></i>
-          </div>
-        </section>
       
 
     </div>
@@ -540,167 +440,6 @@ hexo d    //    部署到github
   <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  
-<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
-
-
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.motion.complete', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      var $indicator = $(indicator);
-      var opacity = action === 'show' ? 1 : 0;
-      $indicator.velocity ?
-        $indicator.velocity('stop').velocity({
-          opacity: opacity
-        }, { duration: 100 }) :
-        $indicator.stop().animate({
-          opacity: opacity
-        }, 100);
-    }
-
-  });
-</script>
-
-<script type="text/javascript" id="sidebar.nav">
-  $(document).ready(function () {
-    var html = $('html');
-    var TAB_ANIMATE_DURATION = 200;
-    var hasVelocity = $.isFunction(html.velocity);
-
-    $('.sidebar-nav li').on('click', function () {
-      var item = $(this);
-      var activeTabClassName = 'sidebar-nav-active';
-      var activePanelClassName = 'sidebar-panel-active';
-      if (item.hasClass(activeTabClassName)) {
-        return;
-      }
-
-      var currentTarget = $('.' + activePanelClassName);
-      var target = $('.' + item.data('target'));
-
-      hasVelocity ?
-        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
-            .addClass(activePanelClassName);
-        }) :
-        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
-          currentTarget.hide();
-          target
-            .stop()
-            .css({'opacity': 0, 'display': 'block'})
-            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
-              currentTarget.removeClass(activePanelClassName);
-              target.addClass(activePanelClassName);
-            });
-        });
-
-      item.siblings().removeClass(activeTabClassName);
-      item.addClass(activeTabClassName);
-    });
-
-    $('.post-toc a').on('click', function (e) {
-      e.preventDefault();
-      var targetSelector = escapeSelector(this.getAttribute('href'));
-      var offset = $(targetSelector).offset().top;
-      hasVelocity ?
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        }) :
-        $('html, body').stop().animate({
-          scrollTop: offset
-        }, 500);
-    });
-
-    // Expand sidebar on post detail page by default, when post has a toc.
-    motionMiddleWares.sidebar = function () {
-      var $tocContent = $('.post-toc-content');
-      if (CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          displaySidebar();
-        }
-      }
-    };
-  });
-</script>
-
-
 
   <script type="text/javascript" src="/js/bootstrap.js"></script>
 
